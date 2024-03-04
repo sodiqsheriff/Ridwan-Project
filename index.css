@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./painting.avif);
+    background-size: contain;
+    max-width: 100%;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    height:400px ;
+    width: 500px;
+    color: white;
+    padding-top: 10%;
+  }
+  .container >h1{
+    font-style: italic;
+    font-family: monospace;
+    padding-bottom: 5%;
+    font-size: 30px;
+  }
+  
+  #quote {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #new-quote-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #new-quote-btn:hover {
+    background-color: #0056b3;
+  }  
